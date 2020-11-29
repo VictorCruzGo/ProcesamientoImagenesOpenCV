@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVejemplo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Detección de bordes basado en el gradiente con las OpenCV.cpp
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\47_Deteccion_bordes_basado_gradiente_OpenCV\Detección de bordes basado en el gradiente con las OpenCV.cpp(32,6): warning C4101: 'c': unreferenced local variable
+  OpenCVejemplo.vcxproj -> C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\x64\Debug\ProcesamientoImagenesOpenCV.exe
