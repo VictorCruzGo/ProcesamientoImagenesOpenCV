@@ -1,2 +1,6 @@
 PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.27.29110:TargetPlatformVersion=10.0.18362.0:
+<<<<<<< HEAD
 Debug|x64|C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\|
+=======
+Debug|x64|C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProcesamientoImagenesOpenCV\|
+>>>>>>> e4b344bb2b4e91d8336709b9e4c7478c5016b171
