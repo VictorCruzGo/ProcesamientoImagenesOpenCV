@@ -1,3 +1,7 @@
+ProyectoProcesamientoImagenesOpenCV/.vs/
+ProyectoProcesamientoImagenesOpenCV/OpenCVejemplo/	
+*.vcxproj
+*.vs
 *.suo
 *.db
 *.ipch

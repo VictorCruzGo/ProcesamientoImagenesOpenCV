@@ -152,24 +152,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\45_Realce_bordes_OpenCV\45 Realce de bordes con las OpenCV\Realce de bordes con las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\47_Deteccion_bordes_basado_gradiente_OpenCV\Detección de bordes basado en el gradiente con las OpenCV.cpp" />
-=======
-    <ClCompile Include="..\..\16_Acceso_pixeles_una_imagen\16 Acceso a los píxeles de una imagen\Acceso a los píxeles de una imagen.cpp" />
-    <ClCompile Include="..\..\17_Obtencion_histograma\17 Obtención del histograma\Obtención del histograma.cpp" />
-    <ClCompile Include="..\..\18_Aplicacion_LUTs\18 Aplicación de LUTs\Aplicación de LUTs.cpp" />
-    <ClCompile Include="..\..\21_Espacios_color_OpenCV\21 Espacios de color con las OpenCV\Espacios de color con las OpenCV.cpp" />
-    <ClCompile Include="..\..\24_Operaciones_matematicas_OpenCV\24 Operaciones matemáticas con las OpenCV\Operaciones matemáticas con las OpenCV.cpp" />
-    <ClCompile Include="..\..\25_Operaciones_logicas_OpenCV\25 Operaciones lógicas con las OpenCV\Operaciones lógicas con las OpenCV.cpp" />
-    <ClCompile Include="..\..\29_Ejemplo_Convolucion_imagenes_digitales_OpenCV\29_Ejemplo_Convolucion_imagenes_digitales_OpenCV\Ejemplo de Conv. de imágenes digitales con las OpenCV.cpp" />
-    <ClCompile Include="..\..\32_Correlacion_imagenes_digitales_OpenCV\32_Correlacion_imagenes_digitales_OpenCV\Correlación de imágenes digitales con las OpenCV.cpp" />
-    <ClCompile Include="..\..\33_Ejemplo_Correlacion_imagenes_digitales_OpenCV\33_Ejemplo_Correlacion_imagenes_digitales_OpenCV\Ejemplo de Correlación de imágenes digitales con las OpenCV.cpp" />
-    <ClCompile Include="..\..\37 Ejemplo de Transformaciones geometricas\Ejemplo de Transformaciones geometricas con las OpenCV.cpp" />
-    <ClCompile Include="..\..\40_Reduccion_ruido_OpenCV\40 Reducción de ruido con las OpenCV\Reducción de ruido con las OpenCV.cpp" />
-    <ClCompile Include="..\..\43_Variacion_contraste_imagenes_ecualizacion_OpenCV\43 Variación del contraste en las imágenes, ecualización con las OpenCV\Variación contraste OpenCV.cpp" />
-    <ClCompile Include="..\..\Escritura_primer_programa\13 Escritura del primer programa\Escritura del primer programa.cpp" />
->>>>>>> e4b344bb2b4e91d8336709b9e4c7478c5016b171
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\49_Detector_Canny_OpenCV\El detector de Canny usando las OpenCV.cpp" />
     <ClCompile Include="Conociendo la clase Mat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Uso de puenteros 1.cpp" />

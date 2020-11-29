@@ -1,18 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVejemplo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-<<<<<<< HEAD
-  Detección de bordes basado en el gradiente con las OpenCV.cpp
-C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\47_Deteccion_bordes_basado_gradiente_OpenCV\Detección de bordes basado en el gradiente con las OpenCV.cpp(32,6): warning C4101: 'c': unreferenced local variable
+  El detector de Canny usando las OpenCV.cpp
   OpenCVejemplo.vcxproj -> C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\x64\Debug\ProcesamientoImagenesOpenCV.exe
-=======
-  Ejemplo de Conv. de imágenes digitales con las OpenCV.cpp
-c1xx : fatal error C1083: Cannot open source file: '..\..\29_Ejemplo_Convolucion_imagenes_digitales_OpenCV\29_Ejemplo_Convolucion_imagenes_digitales_OpenCV\Ejemplo de Conv. de imágenes digitales con las OpenCV.cpp': No such file or directory
-  Correlación de imágenes digitales con las OpenCV.cpp
-  Ejemplo de Correlación de imágenes digitales con las OpenCV.cpp
-c1xx : fatal error C1083: Cannot open source file: '..\..\33_Ejemplo_Correlacion_imagenes_digitales_OpenCV\33_Ejemplo_Correlacion_imagenes_digitales_OpenCV\Ejemplo de Correlación de imágenes digitales con las OpenCV.cpp': No such file or directory
-  Ejemplo de Transformaciones geometricas con las OpenCV.cpp
-  Variación contraste OpenCV.cpp
-c1xx : fatal error C1083: Cannot open source file: '..\..\43_Variacion_contraste_imagenes_ecualizacion_OpenCV\43 Variación del contraste en las imágenes, ecualización con las OpenCV\Variación contraste OpenCV.cpp': No such file or directory
-  Escritura del primer programa.cpp
-  Uso de punteros 2.cpp
-  Generating Code...
->>>>>>> e4b344bb2b4e91d8336709b9e4c7478c5016b171

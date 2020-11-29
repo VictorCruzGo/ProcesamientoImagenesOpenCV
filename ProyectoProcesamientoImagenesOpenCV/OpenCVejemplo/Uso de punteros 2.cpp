@@ -13,11 +13,7 @@ int funcionPunteros(int* valor) {
 	return *valor;
 }
 
-<<<<<<< HEAD
 /*
-=======
-
->>>>>>> e4b344bb2b4e91d8336709b9e4c7478c5016b171
 int main() {
 	int numero = 10;
 	cout << "Antes de funcion " << numero << "\n";//10
@@ -29,7 +25,4 @@ int main() {
 	system("pause");
 	return 0;
 }
-<<<<<<< HEAD
 */
-=======
->>>>>>> e4b344bb2b4e91d8336709b9e4c7478c5016b171

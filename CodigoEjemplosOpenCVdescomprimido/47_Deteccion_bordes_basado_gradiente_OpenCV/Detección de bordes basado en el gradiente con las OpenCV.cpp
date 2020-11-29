@@ -11,7 +11,8 @@
 
 using namespace cv;
 using namespace std;
-int main()
+
+/*int main()
 {
 	//Nombre de la imagen que se va a cargar
 	char NombreImagen[] = "C:\\Users\\vic\\Documents\\Victor Cruz Gomez Windows 10\\CursoOpenCV\\CodigoEjemplosOpenCVdescomprimido\\47_Deteccion_bordes_basado_gradiente_OpenCV\\ivvi_684x684_gray.jpg";
@@ -73,4 +74,4 @@ int main()
 	//Esperar a pulsar una tecla
 	waitKey(0);
 	return 0;
-}
+}*/
