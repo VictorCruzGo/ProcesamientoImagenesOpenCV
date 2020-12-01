@@ -36,5 +36,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\49_Detector_Canny_OpenCV\El detector de Canny usando las OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\51 Deteccion_movimiento_camara_estatica\Detección de movimiento con cámara estática usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
