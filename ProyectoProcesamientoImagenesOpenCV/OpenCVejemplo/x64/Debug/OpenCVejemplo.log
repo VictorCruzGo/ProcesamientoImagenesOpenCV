@@ -1,4 +1,3 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVejemplo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Detección de movimiento con cámara estática usando las OpenCV.cpp
-C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\51 Deteccion_movimiento_camara_estatica\Detección de movimiento con cámara estática usando las OpenCV.cpp(16,19): warning C4129: 'C': unrecognized character escape sequence
+  deteccionMovimientoOpticalFlowOpenCV.cpp
   OpenCVejemplo.vcxproj -> C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\x64\Debug\ProcesamientoImagenesOpenCV.exe

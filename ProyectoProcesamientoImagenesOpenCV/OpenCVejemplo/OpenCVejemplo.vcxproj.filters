@@ -39,5 +39,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\51 Deteccion_movimiento_camara_estatica\Detección de movimiento con cámara estática usando las OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\54 Detección de movimiento con optical flow usando las OpenCV\deteccionMovimientoOpticalFlowOpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

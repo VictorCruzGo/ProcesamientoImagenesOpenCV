@@ -12,12 +12,13 @@
 using namespace cv;
 using namespace std;
 
+//Cantidad de esquinas
 #define MAX_CORNERS 500
 #define ESCAPE 27
 
 int main(int argc, char* argv[])
 {
-
+	//Captura de video desde una webcam
 	VideoCapture capture;
 
 	// Objects
@@ -27,7 +28,7 @@ int main(int argc, char* argv[])
 	char keypressed = 0;
 	bool success;
 
-	// Load image from disk
+	// Comprobar que la captura de video es correcta
 	capture.open(0);
 	// if not success, exit program
 	if (!capture.isOpened()){
@@ -36,43 +37,54 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
-	/// Parameters for Shi-Tomasi algorithm
+	//----Parametros del algoritmo Shi-Tomasi ----
+	//Esquinas localizadas. cornersA esquinas localizadas. cornersB devolvera el metodo de Lucas Cannade
 	vector<Point2f> cornersA, cornersB;
+	//Por defecto
 	double qualityLevel = 0.01;
+	//Minima distancia entre esquinas
 	double minDistance = 10;
 	int blockSize = 3;
+	//No utilizar el detector de Harris
 	bool useHarrisDetector = false; 
+	//Por defecto
 	double k = 0.04;
+	//Numero maximo de esquinas = 500
 	int maxCorners = MAX_CORNERS;
 
-	// winsize has to be 11 or 13, otherwise nothing is found
+	//----Parametros para el metodo de Lucas Cannade ----
 	vector<uchar> status;
 	vector<float> error;
+	//Valor entre 11 y 13
 	int winsize = 11;
+	//Valor piramidal de Lucas Cannade
 	int maxlvl = 5;
 
-	// Objects
+	//Definicion de matrices
+	//grayA, grayB imagenes en escala de grises de las imagenes de entrada
 	Mat img_prev, img_next, grayA, grayB;
 
+	//Verificar que la captura es correcta
 	success = capture.read(frame);
-	// if no success exit program
 	if (success == false){
 		cout << "Cannot read the frame from file" << endl;
 		getchar();
 		return 1;
 	}
-
+	//Clonar el frame capturado
 	img_prev = frame.clone();
 
 	// Windows for all the images
 	namedWindow("Corners A", WINDOW_AUTOSIZE);
 	namedWindow("Corners B", WINDOW_AUTOSIZE);
 
+	//Bucle que se capturara con la webcam
+	//Se ejecutara de forma continua
 	while (keypressed != ESCAPE)
 	{
-		// read frame by frame in a loop
+		//Leer frame por frame en el bucle
 		success = capture.read(frame);
-		// if no success exit program
+		//Verificar que la captura es correcta
 		if (success == false){
 			cout << "Cannot read the frame from file" << endl;
 			return 1;
@@ -80,13 +92,14 @@ int main(int argc, char* argv[])
 
 		img_next = frame.clone();
 
-		// convert to grayScale
+		//Convertir imagen previa y siguiente a escala de grises
 		cvtColor(img_prev, grayA, COLOR_RGB2GRAY);
 		cvtColor(img_next, grayB, COLOR_RGB2GRAY);
 
-		/// Apply corner detection
+		//Funcion para detectar las esquinas con el metodo de SHI-TOMASI
+		//Se obtendran las esquinas que se van a seguir en la imgen grayA 
 		goodFeaturesToTrack(grayA,
-			cornersA,
+			cornersA, //Obtenicion de esquinas de la imagen grayA
 			maxCorners,
 			qualityLevel,
 			minDistance,
@@ -95,12 +108,15 @@ int main(int argc, char* argv[])
 			useHarrisDetector,
 			k);
 
+		//Calcular el flujo optico de Luca Kannade Piramidal
+		//calcOpticalFlowPyrLK(grayA [imagen inicial], grayB[siguiente imagen en la captura de video], cornersA [esquinas SHI-TOMASI], cornersB[resultado de la funcion. Siguiente esquina a seguir], status, error,
+			//Size(winsize, winsize), maxlvl);
 		calcOpticalFlowPyrLK(grayA, grayB, cornersA, cornersB, status, error,
 			Size(winsize, winsize), maxlvl);
 
-		/// Draw corners detected
+		//Dibujar las esquinas detectadas
 		//cout << "Number of cornersA detected: " << cornersA.size() << endl;
-		//cout << "Optical Flow corners detected: " << cornersB.size() << endl;
+		//cout << "Optical Flow corners detected: " << cornersB.size() << endl;		
 		for (int i = 0; i < cornersA.size(); i++)
 		{
 			line(img_prev, cornersA[i], cornersB[i], Scalar(0, 255, 0), 2);

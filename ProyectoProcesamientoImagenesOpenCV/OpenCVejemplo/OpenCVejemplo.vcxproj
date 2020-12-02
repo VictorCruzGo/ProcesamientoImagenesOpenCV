@@ -156,6 +156,7 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\47_Deteccion_bordes_basado_gradiente_OpenCV\Detección de bordes basado en el gradiente con las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\49_Detector_Canny_OpenCV\El detector de Canny usando las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\51 Deteccion_movimiento_camara_estatica\Detección de movimiento con cámara estática usando las OpenCV.cpp" />
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\54 Detección de movimiento con optical flow usando las OpenCV\deteccionMovimientoOpticalFlowOpenCV.cpp" />
     <ClCompile Include="Conociendo la clase Mat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Uso de puenteros 1.cpp" />
