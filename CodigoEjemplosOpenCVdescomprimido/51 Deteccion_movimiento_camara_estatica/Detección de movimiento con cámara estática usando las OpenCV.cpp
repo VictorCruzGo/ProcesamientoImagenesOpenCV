@@ -10,11 +10,12 @@
 using namespace std;
 using namespace cv;
 
+/*
 int main()
 {
-	//frame
-	//back
-	//fore
+	//frame=video
+	//back=imagen estatica. Fondo estatico.
+	//fore=imagen resultante umbralizada. Extraccion en primer plano
 	//dest
 	Mat frame, back, fore, dest;
 	VideoCapture cap("C:\\Users\\vic\\Documents\\Victor Cruz Gomez Windows 10\\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\\51 Deteccion_movimiento_camara_estatica\\IcabMovimientoEscenaEstatica.mp4");
@@ -29,6 +30,7 @@ int main()
 
 	for (;;)
 	{
+		//Carga el video en frame
 		cap >> frame;
 		//verificar si el frame se cargo correcta
 		if (!frame.data)
@@ -38,9 +40,9 @@ int main()
 		}
 		//Numero de gausianas a utilizar=5
 		bg->setNMixtures(5);
-		//El metodo
+		//En fore se obtiene el primer plano principal
 		bg->apply(frame, fore);
-		//Obtiene el background
+		//Obtiene el background el fondo, imagen estatica
 		bg->getBackgroundImage(back);
 
 		//Funciones para la eliminacion de ruidos
@@ -48,7 +50,7 @@ int main()
 		erode(fore, fore, Mat());
 		//dilatar una imagen
 		dilate(fore, fore, Mat());
-		//convertir de Gray a BGR
+		//convertir de Gray a BGR, pintar por pantalla en color
 		cvtColor(fore, fore, COLOR_GRAY2BGR);
 		//Diferencia entre la parte estatica con la dinamica
 		//Fusionar y obtener en destino
@@ -61,3 +63,4 @@ int main()
 	}
 	return 0;
 }
+*/
