@@ -48,5 +48,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\58 Umbralización usando las OpenCV\Umbralización usando las OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\60_Transformada_Hough_usando_OpenCV\Transformada de Hough usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
