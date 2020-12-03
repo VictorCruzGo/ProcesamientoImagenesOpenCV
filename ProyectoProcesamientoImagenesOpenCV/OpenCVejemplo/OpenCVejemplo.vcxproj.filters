@@ -42,5 +42,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\54 Detección de movimiento con optical flow usando las OpenCV\deteccionMovimientoOpticalFlowOpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\56 Camshift OpenCV\Camshift OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -16,6 +16,7 @@ using namespace std;
 #define MAX_CORNERS 500
 #define ESCAPE 27
 
+/*
 int main(int argc, char* argv[])
 {
 	//Captura de video desde una webcam
@@ -38,26 +39,26 @@ int main(int argc, char* argv[])
 	}
 
 	//----Parametros del algoritmo Shi-Tomasi ----
-	//Esquinas localizadas. cornersA esquinas localizadas. cornersB devolvera el metodo de Lucas Cannade
+	//Esquinas localizadas. cornersA esquinas localizadas. cornersB devolvera el metodo de Lucas Kannade
 	vector<Point2f> cornersA, cornersB;
 	//Por defecto
 	double qualityLevel = 0.01;
 	//Minima distancia entre esquinas
 	double minDistance = 10;
 	int blockSize = 3;
-	//No utilizar el detector de Harris
+	//No utilizar el detector esquinas mejorado de Harris
 	bool useHarrisDetector = false; 
 	//Por defecto
 	double k = 0.04;
 	//Numero maximo de esquinas = 500
 	int maxCorners = MAX_CORNERS;
 
-	//----Parametros para el metodo de Lucas Cannade ----
+	//----Parametros para el metodo de Lucas Kannade ----
 	vector<uchar> status;
 	vector<float> error;
 	//Valor entre 11 y 13
 	int winsize = 11;
-	//Valor piramidal de Lucas Cannade
+	//Valor piramidal de Lucas Kannade
 	int maxlvl = 5;
 
 	//Definicion de matrices
@@ -140,3 +141,4 @@ int main(int argc, char* argv[])
 	// End of the program
 	return 0;
 }
+*/
