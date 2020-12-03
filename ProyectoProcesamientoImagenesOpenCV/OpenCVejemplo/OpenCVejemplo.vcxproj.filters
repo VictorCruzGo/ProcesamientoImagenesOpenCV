@@ -45,5 +45,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\56 Camshift OpenCV\Camshift OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\58 Umbralización usando las OpenCV\Umbralización usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

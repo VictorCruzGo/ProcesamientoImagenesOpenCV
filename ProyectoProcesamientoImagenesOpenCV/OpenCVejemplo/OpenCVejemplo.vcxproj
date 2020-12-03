@@ -158,6 +158,7 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\51 Deteccion_movimiento_camara_estatica\Detección de movimiento con cámara estática usando las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\54 Detección de movimiento con optical flow usando las OpenCV\deteccionMovimientoOpticalFlowOpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\56 Camshift OpenCV\Camshift OpenCV.cpp" />
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\58 Umbralización usando las OpenCV\Umbralización usando las OpenCV.cpp" />
     <ClCompile Include="Conociendo la clase Mat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Uso de puenteros 1.cpp" />
