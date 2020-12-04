@@ -15,7 +15,7 @@ using namespace std;
 //*******************************************************************************************************
 /**/
 
-
+/*
 int main(int argc, char** argv)
 {
 	//Nombre de la imagen que se va a cargar
@@ -62,7 +62,7 @@ int main(int argc, char** argv)
 
 	return 0;
 }
-/**/
+*/
 
 //*******************************************************************************************************
 // Transformada de Hough probabilística
