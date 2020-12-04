@@ -6,6 +6,7 @@
 using namespace std;
 using namespace cv;
 
+/*
 int main()
 {
 	//Nombre de la imagen que se va a cargar
@@ -38,3 +39,4 @@ int main()
 	waitKey(0);	
 	return 0;
 }
+*/

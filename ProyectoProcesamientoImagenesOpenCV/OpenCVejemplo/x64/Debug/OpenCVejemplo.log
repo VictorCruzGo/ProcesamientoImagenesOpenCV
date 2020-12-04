@@ -1,3 +1,4 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVejemplo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Transformaciones morfológicas usando las OpenCV.cpp
+  Etiquetado de objetos usando las OpenCV.cpp
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\64_Etiquetado_objetos_OpenCV\Etiquetado de objetos usando las OpenCV.cpp(49,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   OpenCVejemplo.vcxproj -> C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\x64\Debug\ProcesamientoImagenesOpenCV.exe

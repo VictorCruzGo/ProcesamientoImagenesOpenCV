@@ -54,5 +54,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\62_Transformaciones_morfologicas_OpenCV\Transformaciones morfológicas usando las OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\64_Etiquetado_objetos_OpenCV\Etiquetado de objetos usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
