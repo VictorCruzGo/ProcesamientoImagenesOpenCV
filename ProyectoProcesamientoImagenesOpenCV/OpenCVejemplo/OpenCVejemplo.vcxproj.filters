@@ -57,5 +57,11 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\64_Etiquetado_objetos_OpenCV\Etiquetado de objetos usando las OpenCV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\67_Clasificador_Bayes_OpenCV\El clasificador de Bayes usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

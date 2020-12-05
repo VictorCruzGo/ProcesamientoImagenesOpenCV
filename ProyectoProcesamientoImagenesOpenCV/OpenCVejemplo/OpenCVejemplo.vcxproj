@@ -162,6 +162,8 @@
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\60_Transformada_Hough_usando_OpenCV\Transformada de Hough usando las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\62_Transformaciones_morfologicas_OpenCV\Transformaciones morfológicas usando las OpenCV.cpp" />
     <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\64_Etiquetado_objetos_OpenCV\Etiquetado de objetos usando las OpenCV.cpp" />
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\67_Clasificador_Bayes_OpenCV\El clasificador de Bayes usando las OpenCV.cpp" />
+    <ClCompile Include="..\..\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp" />
     <ClCompile Include="Conociendo la clase Mat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Uso de puenteros 1.cpp" />

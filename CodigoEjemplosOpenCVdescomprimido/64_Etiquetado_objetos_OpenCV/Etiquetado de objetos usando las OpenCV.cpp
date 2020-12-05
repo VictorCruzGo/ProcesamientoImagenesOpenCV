@@ -8,6 +8,7 @@
 using namespace cv;
 using namespace std;
 
+/*
 int main() {
 
 	Mat image = imread("C:\\Users\\vic\\Documents\\Victor Cruz Gomez Windows 10\\CursoOpenCV\\CodigoEjemplosOpenCVdescomprimido\\64_Etiquetado_objetos_OpenCV\\clase1.jpg");
@@ -53,5 +54,5 @@ int main() {
 	waitKey(0);
 	return 0;
 }
-
+*/
 

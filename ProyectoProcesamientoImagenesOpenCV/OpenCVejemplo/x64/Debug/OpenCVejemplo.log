@@ -1,4 +1,34 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVejemplo.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Realce de bordes con las OpenCV.cpp
+  Detección de bordes basado en el gradiente con las OpenCV.cpp
+  El detector de Canny usando las OpenCV.cpp
+  Detección de movimiento con cámara estática usando las OpenCV.cpp
+  deteccionMovimientoOpticalFlowOpenCV.cpp
+  Camshift OpenCV.cpp
+  Umbralización usando las OpenCV.cpp
+  Transformada de Hough usando las OpenCV.cpp
+  Transformaciones morfológicas usando las OpenCV.cpp
   Etiquetado de objetos usando las OpenCV.cpp
-C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\64_Etiquetado_objetos_OpenCV\Etiquetado de objetos usando las OpenCV.cpp(49,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  El clasificador de Bayes usando las OpenCV.cpp
+  Kmedias usando las OpenCV.cpp
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(49,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(49,33): warning C4244: '=': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(50,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(50,33): warning C4244: '=': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(56,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(72,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(75,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(76,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\CodigoEjemplosOpenCVdescomprimido\69_Kmedias_usando_las_OpenCV\Kmedias usando las OpenCV.cpp(19,13): warning C4101: 'clase': unreferenced local variable
+  Conociendo la clase Mat.cpp
+  main.cpp
+  Generating Code...
   OpenCVejemplo.vcxproj -> C:\Users\vic\Documents\Victor Cruz Gomez Windows 10\CursoOpenCV\ProyectoProcesamientoImagenesOpenCV\x64\Debug\ProcesamientoImagenesOpenCV.exe
